@@ -5,6 +5,7 @@ public class QueueArray {
     int queueTop;
     int queueStart;
 
+    // Constructor : Queue
     public QueueArray(int size) {
         this.queueArray = new int[size];
         this.queueTop = -1;
@@ -12,14 +13,17 @@ public class QueueArray {
         System.out.print("Queue Successfully Created of Size : " + size);
     }
 
+    // isEmpty : Queue
     public boolean isEmpty() {
         return queueStart == -1 || queueStart == queueArray.length;
     }
 
+    // isFull : Queue
     public boolean isFull() {
         return queueTop == queueArray.length-1;
     }
 
+    // enQueue : Queue
     public void enQueue(int value) {
         if (isFull()) {
             System.out.print("Queue is full");
@@ -35,6 +39,7 @@ public class QueueArray {
         }
     }
 
+    // deQueue : Queue
     public int deQueue() {
         if (isEmpty()) {
             System.out.print("Queue is empty");
@@ -49,6 +54,7 @@ public class QueueArray {
         }
     }
 
+    // Peek : Queue
     public int peek() {
         if (!isEmpty()) {
             return queueArray[queueStart];
