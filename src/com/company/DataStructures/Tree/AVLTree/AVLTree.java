@@ -1,4 +1,4 @@
-package com.company.Tree.AVLTree;
+package com.company.DataStructures.Tree.AVLTree;
 
 import java.util.LinkedList;
 import java.util.Queue;

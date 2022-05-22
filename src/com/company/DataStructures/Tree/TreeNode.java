@@ -1,4 +1,4 @@
-package com.company.Tree;
+package com.company.DataStructures.Tree;
 
 import java.util.ArrayList;
 
@@ -9,7 +9,7 @@ public class TreeNode {
     // Constructor : Tree
     public TreeNode(String data) {
         this.data = data;
-        this.children = new ArrayList<TreeNode>();
+        this.children = new ArrayList<>();
     }
 
     // Add Child Node : Tree

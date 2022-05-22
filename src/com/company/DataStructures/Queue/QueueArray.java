@@ -1,4 +1,4 @@
-package com.company.Queue;
+package com.company.DataStructures.Queue;
 
 public class QueueArray {
     int[] queueArray;

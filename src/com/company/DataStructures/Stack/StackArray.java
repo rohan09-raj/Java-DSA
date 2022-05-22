@@ -1,4 +1,4 @@
-package com.company.Stack;
+package com.company.DataStructures.Stack;
 
 public class StackArray {
     int[] stackArray;

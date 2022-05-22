@@ -1,4 +1,4 @@
-package com.company.Tree.BinaryTree;
+package com.company.DataStructures.Tree.BinaryTree;
 
 import java.util.Objects;
 
