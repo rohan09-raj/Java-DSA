@@ -22,7 +22,7 @@ public class HeapSort {
             nums[0] = nums[i];
             nums[i] = tmp;
 
-            heapify(nums, i, 0);//calling max heapify on the heap reduced
+            heapify(nums, i, 0); //calling max heapify on the heap reduced
         }
 
         return nums;
